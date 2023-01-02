@@ -1,0 +1,38 @@
+{
+  "name": "pulumi-get-value",
+  "version": "1.0.0",
+  "description": "Get the value of a Pulumi Output<T> using await instead of apply",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "lint": "eslint . --ext .ts",
+    "start": "ts-node index.ts",
+    "test": "jest --coverage --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEGO/pulumi-get-value.git"
+  },
+  "keywords": [
+    "pulumi",
+    "await",
+    "async",
+    "typescript"
+  ],
+  "author": "Morten Bøgh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LEGO/pulumi-get-value/issues"
+  },
+  "homepage": "https://github.com/LEGO/pulumi-get-value#readme",
+  "dependencies": {
+    "@pulumi/pulumi": "^3.50.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.0",
+    "@types/node": "^18.8.3",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.3",
+    "typescript": "^4.7.2"
+  }
+}

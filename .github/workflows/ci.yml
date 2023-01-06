@@ -1,5 +1,7 @@
 on:
   pull_request:
+    types: [opened, synchronize, reopened]
+
 
 concurrency:
   group: ${{ github.head_ref }}
@@ -16,7 +18,7 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-        run: npm ci --ignore-scripts --audit=false
+      - run: npm ci --ignore-scripts --audit=false
 
   build:
     name: Build package
@@ -28,8 +30,8 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-        run: npm ci --ignore-scripts --audit=false
-        run: npm run build
+      - run: npm ci --ignore-scripts --audit=false
+      - run: npm run build
 
   lint:
     name: Lint Code
@@ -41,8 +43,8 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-        run: npm ci --ignore-scripts --audit=false
-        run: npm run lint
+      - run: npm ci --ignore-scripts --audit=false
+      - run: npm run lint
 
   test:
     name: Test Code
@@ -54,5 +56,5 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-        run: npm ci --ignore-scripts --audit=false
-        run: npm run test
+      - run: npm ci --ignore-scripts --audit=false
+      - run: npm run test

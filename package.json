@@ -19,7 +19,8 @@
     "async",
     "typescript"
   ],
-  "author": "Morten Bøgh",
+  "author": "Morten Bøgh <morten@boegh.co>",
+  "contributors": ["Alin Stefan Olaru"],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/LEGO/pulumi-get-value/issues"

@@ -2,7 +2,6 @@
   "name": "pulumi-get-value",
   "version": "1.0.0",
   "publishConfig": {
-    "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
   },
   "description": "Get the value of a Pulumi Output<T> using await instead of apply",

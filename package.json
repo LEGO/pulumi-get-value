@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc -p .",
     "lint": "eslint . --ext .ts",
-    "start": "ts-node index.ts",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "release": "auto shipit"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,10 @@
     "async",
     "typescript"
   ],
-  "author": "Morten Bøgh <morten@boegh.co>",
-  "contributors": ["Alin Stefan Olaru"],
+  "author": "Morten Bøgh <morten.boegh@lego.com>",
+  "contributors": [
+    "Alin Stefan Olaru <alin.stefan.olaru@lego.com>"
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/LEGO/pulumi-get-value/issues"
@@ -32,8 +34,20 @@
   "devDependencies": {
     "@types/jest": "^28.1.0",
     "@types/node": "^18.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "auto": "^10.43.0",
+    "eslint": "^8.35.0",
     "jest": "^28.1.0",
     "ts-jest": "^28.0.3",
     "typescript": "^4.7.2"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "first-time-contributor",
+      "released"
+    ]
   }
 }

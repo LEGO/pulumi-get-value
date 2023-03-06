@@ -1,3 +1,7 @@
+[![Actions Status](https://github.com/LEGO/pulumi-get-value/actions/workflows/main.yml/badge.svg)](https://github.com/LEGO/pulumi-get-value/actions/workflows/main.yml)
+[![npm version](https://badge.fury.io/js/@lego%2Fpulumi-get-value.svg)](https://www.npmjs.com/package/@lego/pulumi-get-value)
+[![License](https://img.shields.io/npm/l/@lego/pulumi-get-value)](https://github.com/lego/pulumi-get-value/blob/main/LICENSE)
+
 # pulumi-get-value
 Pulumi plug-in that enables you to await the value of `Output<T>` types.
 

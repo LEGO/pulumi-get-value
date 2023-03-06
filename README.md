@@ -1,2 +1,35 @@
 # pulumi-get-value
-Pulumi plug-in that enables you to await the value of Output&lt;T> types
+Pulumi plug-in that enables you to await the value of `Output<T>` types.
+
+## Installation
+To use from JavaScript or TypeScript in Node.js, install using either `npm`:
+
+```
+npm install @lego/pulumi-get-value
+```
+
+or `yarn`:
+```
+yarn add @lego/pulumi-get-value
+```
+
+## Usage
+```typescript
+const bucket = new aws.s3.Bucket('my-bucket');
+
+// Using `.apply`
+bucket.arn.apply((arn) => {
+  // Use arn
+});
+
+// Using `getValue()`
+const arn = await getValue(bucket.arn);
+```
+
+## Contribution
+
+This project welcomes contributions and suggestions.
+Do you want to contribute to the project? Find out how [here](CONTRIBUTING.md).
+
+## License
+[Modified Apache 2.0 (Section 6)](LICENSE)

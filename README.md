@@ -19,7 +19,10 @@ yarn add @lego/pulumi-get-value
 
 ## Usage
 ```typescript
-const bucket = new aws.s3.Bucket('my-bucket');
+import { getValue } from "@lego/pulumi-get-value"
+import * as aws from '@pulumi/aws';
+
+const bucket: aws.s3.Bucket = new aws.s3.Bucket('my-bucket');
 
 // Using `.apply`
 bucket.arn.apply((arn) => {
@@ -27,7 +30,7 @@ bucket.arn.apply((arn) => {
 });
 
 // Using `getValue()`
-const arn = await getValue(bucket.arn);
+const arn: string = await getValue(bucket.arn);
 ```
 
 ## Contribution

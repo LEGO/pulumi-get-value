@@ -6,12 +6,11 @@ on:
     branches:
       - main
 
-
 concurrency:
   group: ${{ github.head_ref }}
   cancel-in-progress: true
 
-name: CI/CD
+name: Continuous Integration
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -31,9 +30,3 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
-      - name: Release
-        if: ${{ github.event_name == 'push' }}
-        run: npm run release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPMJS_ACCESS_TOKEN }}

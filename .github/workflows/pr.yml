@@ -1,5 +1,3 @@
-name: "Lint PR"
-
 on:
   pull_request_target:
     types:
@@ -9,6 +7,7 @@ on:
       - edited
       - ready_for_review
 
+name: "Lint PR"
 jobs:
   lint-pr:
     name: Lint PR title

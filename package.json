@@ -1,7 +1,7 @@
 {
   "name": "@lego/mobile-platform-utils",
   "version": "1.0.0",
-  "repository": "git@github.com:LEGO/pulumi-get-value.git",
+  "repository": "LEGO/pulumi-get-value",
   "author": "Alin Stefan Olaru <alin.stefan.olaru@LEGO.com>",
   "license": "Apache 2.0",
   "private": true,

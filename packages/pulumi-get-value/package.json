@@ -31,7 +31,7 @@
     "url": "https://github.com/LEGO/pulumi-get-value/issues"
   },
   "homepage": "https://github.com/LEGO/pulumi-get-value#readme",
-  "dependencies": {
+  "peerDependencies": {
     "@pulumi/pulumi": "^3.50.0"
   },
   "devDependencies": {

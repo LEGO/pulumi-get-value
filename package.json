@@ -15,6 +15,10 @@
     "release": "auto shipit",
     "release:dry": "auto shipit --dry-run"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@auto-it/conventional-commits": "^10.43.0",
     "@auto-it/npm": "^10.43.0",

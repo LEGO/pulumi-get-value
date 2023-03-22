@@ -23,6 +23,9 @@
     "@auto-it/conventional-commits": "^10.43.0",
     "@auto-it/npm": "^10.43.0",
     "@auto-it/released": "^10.43.0",
-    "auto": "^10.43.0"
+    "@types/node": "^18.8.3",
+    "auto": "^10.43.0",
+    "lerna": "^6.5.1",
+    "typescript": "^4.7.2"
   }
 }

@@ -1,0 +1,10 @@
+{
+    "changelog": {
+        "message": "docs(changelog): update changelog [skip ci]"
+    },
+    "plugins": [
+        "npm",
+        "conventional-commits",
+        "released"
+    ]
+}

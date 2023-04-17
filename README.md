@@ -48,8 +48,8 @@ Do you want to contribute to the project? Find out how [here](CONTRIBUTING.md).
  
 ### Dev Dependencies
 
-- [@auto-it/all-contributors](https://www.npmjs.com/package/@auto-it/all-contributors): [MIT](https://github.com/intuit/auto/blob/main/LICENSE)
-- [@auto-it/first-time-contributor](https://www.npmjs.com/package/@auto-it/first-time-contributor): [(MIT](https://github.com/intuit/auto/blob/main/LICENSE)
+- [@semantic-release/changelog](https://www.npmjs.com/package/@semantic-release/changelog) - [MIT](https://github.com/semantic-release/changelog/blob/master/LICENSE)
+- [@semantic-release/git](https://www.npmjs.com/package/@semantic-release/git) - [MIT](https://github.com/semantic-release/git/blob/master/LICENSE)
 - [@types/jest](https://www.npmjs.com/package/@types/jest): [MIT](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE)
 - [@types/node](https://www.npmjs.com/package/@types/node): [MIT](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE)
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): [BSD-2-Clause](https://github.com/typescript-eslint/typescript-eslint/blob/main/LICENSE)

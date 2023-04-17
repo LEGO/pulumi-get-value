@@ -1,6 +1,6 @@
 {
   "name": "@lego/pulumi-get-value",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get the value of a Pulumi Output<T> using await instead of apply",
   "main": "src/index.ts",
   "scripts": {
@@ -14,7 +14,8 @@
     "url": "git+https://github.com/LEGO/pulumi-get-value.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "pulumi",

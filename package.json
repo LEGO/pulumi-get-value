@@ -14,8 +14,7 @@
     "url": "git+https://github.com/LEGO/pulumi-get-value.git"
   },
   "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
+    "access": "public"
   },
   "keywords": [
     "pulumi",

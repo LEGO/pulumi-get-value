@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/LEGO/pulumi-get-value/compare/v1.1.0...v1.1.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* Release build ([#16](https://github.com/LEGO/pulumi-get-value/issues/16)) ([7cb6ea0](https://github.com/LEGO/pulumi-get-value/commit/7cb6ea0fb43e37a385a32cae2ce8774372c474f4))
+
 # [1.1.0](https://github.com/LEGO/pulumi-get-value/compare/v1.0.0...v1.1.0) (2023-05-04)
 
 

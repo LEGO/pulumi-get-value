@@ -23,6 +23,8 @@ jobs:
           scope: '@lego'
       - name: Install dependencies
         run: npm ci --ignore-scripts --audit=false
+      - name: Build
+        run: npm run build
       - name: Request GitHub token
         id: get_workflow_token
         uses: peter-murray/workflow-application-token-action@v2.1.0

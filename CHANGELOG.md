@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/LEGO/pulumi-get-value/compare/v1.0.0...v1.1.0) (2023-05-04)
+
+
+### Bug Fixes
+
+* using correct token to publish ([#15](https://github.com/LEGO/pulumi-get-value/issues/15)) ([7f0a4dd](https://github.com/LEGO/pulumi-get-value/commit/7f0a4ddf2ad5c15fba6243e0290a334ec828419a))
+
+
+### Features
+
+* now publishing to npmjs  ([#14](https://github.com/LEGO/pulumi-get-value/issues/14)) ([5249612](https://github.com/LEGO/pulumi-get-value/commit/5249612f9d54acfb2a125728e721a9b16ad41a6d))
+
 # 1.0.0 (2023-04-17)
 
 

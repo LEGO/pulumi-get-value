@@ -4,7 +4,7 @@ This is great that you'd like to contribute to this project. All change requests
 
 ## Pull Requests
 
-**Please, make sure you open an issue before starting with a Pull Request, unless it's a typo or a really obvious error.** Pull requests are the best way to propose changes to the specification.
+**Please, make sure you open an issue before starting with a Pull Request, unless it's a typo or an obvious error.** Pull requests are the best way to propose changes to the specification.
 
 ## Conventional commits
 

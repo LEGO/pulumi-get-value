@@ -14,7 +14,7 @@ Pull requests should have a title that follows the specification, otherwise, mer
 
 - `fix: ` prefix in the title indicates that PR is a bug fix and a PATCH release must be triggered.
 - `feat: ` prefix in the title indicates that PR is a feature and a MINOR release must be triggered.
-- `docs: ` prefix in the title indicates that PR is only related to the documentation and there is no need to a trigger release.
+- `docs: ` prefix in the title indicates that PR is only related to the documentation and there is no need to trigger a release.
 - `chore: ` prefix in the title indicates that PR is only related to cleanup in the project and there is no need to trigger release.
 - `test: ` prefix in the title indicates that PR is only related to tests and there is no need to trigger release.
 - `refactor: ` prefix in the title indicates that PR is only related to refactoring and there is no need to trigger release.

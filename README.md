@@ -36,7 +36,7 @@ const arn: string = await getValue(bucket.arn);
 ## Contribution
 
 This project welcomes contributions and suggestions.
-Do you want to contribute to the project? Find out how [here](CONTRIBUTING.md).
+Would you like to contribute to the project? Learn how to contribute [here](CONTRIBUTING.md).
 
 ## License
 [Modified Apache 2.0 (Section 6)](LICENSE)

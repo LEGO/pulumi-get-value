@@ -15,11 +15,11 @@ Pull requests should have a title that follows the specification, otherwise, mer
 - `fix: ` prefix in the title indicates that PR is a bug fix and a PATCH release must be triggered.
 - `feat: ` prefix in the title indicates that PR is a feature and a MINOR release must be triggered.
 - `docs: ` prefix in the title indicates that PR is only related to the documentation and there is no need to trigger a release.
-- `chore: ` prefix in the title indicates that PR is only related to cleanup in the project and there is no need to trigger release.
-- `test: ` prefix in the title indicates that PR is only related to tests and there is no need to trigger release.
-- `refactor: ` prefix in the title indicates that PR is only related to refactoring and there is no need to trigger release.
+- `chore: ` prefix in the title indicates that PR is only related to cleanup in the project and there is no need to trigger a release.
+- `test: ` prefix in the title indicates that PR is only related to tests and there is no need to trigger a release.
+- `refactor: ` prefix in the title indicates that PR is only related to refactoring and there is no need to trigger a release.
 
-What about MAJOR release? Just add `!` to the prefix, like `fix!: ` or `refactor!: `
+What about a MAJOR release? Just add `!` to the prefix, like `fix!: ` or `refactor!: `
 
 Prefix that follows specification is not enough though. Remember that the title must be clear and descriptive with the usage of [imperative mood](https://chris.beams.io/posts/git-commit/#imperative).
 

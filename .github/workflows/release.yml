@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: 'npm'
@@ -25,12 +25,13 @@ jobs:
         run: npm ci --ignore-scripts --audit=false
       - name: Build
         run: npm run build
-      - name: Request GitHub token
+      - name: Create GitHub App token
         id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@v2.1.0
+        uses: actions/create-github-app-token@v1
         with:
-          application_id: ${{ secrets.APP_INSTALLATION_ID }}
-          application_private_key: ${{ secrets.APPLICATION_PRIVATE_KEY }}
+          app-id: ${{ secrets.APP_INSTALLATION_ID }}
+          private-key: ${{ secrets.APPLICATION_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
       - name: Release
         env:
           GITHUB_TOKEN: ${{ steps.get_workflow_token.outputs.token }}

@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 18
+          node-version: 22
           cache: 'npm'
           scope: '@lego'
       - name: Install dependencies
@@ -27,7 +27,7 @@ jobs:
         run: npm run build
       - name: Create GitHub App token
         id: get_workflow_token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
           app-id: ${{ secrets.APP_INSTALLATION_ID }}
           private-key: ${{ secrets.APPLICATION_PRIVATE_KEY }}
